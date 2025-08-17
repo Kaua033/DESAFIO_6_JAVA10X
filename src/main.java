@@ -7,8 +7,8 @@ public class main {
         System.out.println("=================================================================");
 
         LinkedList<NINJA>NINJADD= new LinkedList<>();
-        NINJADD.add(new NINJA("naruto",   19,"aldeia da folha"));
-        NINJADD.add(new NINJA("sasuke",   19,"aldeia da folha"));
+        NINJADD.add(new NINJA("naruto",   17,"aldeia da folha"));
+        NINJADD.add(new NINJA("sasuke",   17,"aldeia da folha"));
         NINJADD.add(new NINJA("Kakashi",  30,"Aldeia da Folha"));
         NINJADD.add(new NINJA("Hinata",   16,"Aldeia da Folha"));
         NINJADD.add(new NINJA("Shikamaru",17,"Aldeia da Folha"));
