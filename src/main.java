@@ -13,7 +13,9 @@ public class main {
         NINJADD.add(new NINJA("Kakashi",  30,"Aldeia da Folha"));
         NINJADD.add(new NINJA("Hinata",   16,"Aldeia da Folha"));
         NINJADD.add(new NINJA("Shikamaru",17,"Aldeia da Folha"));
-        NINJADD.add(new NINJA("Rock Lee", 17,"Aldeia da Folha"));
+        NINJADD.add(new NINJA("kaua", 17,"Aldeia da Folha"));
+        NINJADD.add(new NINJA("aa Lee", 17,"Aldeia da Folha"));
+        NINJADD.add(new NINJA("bb Lee", 17,"Aldeia da Folha"));
         NINJADD.add(new NINJA("Gaara",    17,"Aldeia da Areia"));
 
 
@@ -26,45 +28,48 @@ Scanner ini_Scan = new Scanner(System.in);
             System.out.println("1.Remover ninjas");
             System.out.println("2.listar");
             System.out.println("3.Sair");
-char Escolha  = ini_Scan.next().charAt(0);
+            escolha = ini_Scan.next().charAt(0);
             switch (escolha   ) {
-                case 1:   if (!NINJADD.isEmpty()) {
-                    NINJADD.removeFirst();
+                case '1':   if (!NINJADD.isEmpty()) {
               NINJA NINJAL2 = NINJADD.removeFirst();
-
-                    System.out.println("removido = " + NINJAL2);
-
-                } else {
+              System.out.println("removido = " + NINJAL2);
+                }else {
                     System.out.println("rapaz");
                 }
-break;
+               break;
+                case '2':
+                if(!NINJADD.isEmpty()){
+                    System.out.println("=================================================================LISTA=================================================================");
+                    NINJA NINJA = NINJADD.get(0);
+                    NINJA NINJA2 = NINJADD.get(1);
+                    NINJA NINJA3 = NINJADD.get(2);
+                    System.out.println("NINJAS \n" + NINJA + NINJA2 + NINJA3);
+                }else {
+                    System.out.println("embaçado");
+                }
+                           break;
+                case '3':
+                    System.out.println("SAINDOOOO");
+            break;
+                default:
+                    System.out.println("mosss");
+                }
 
-            }
 
 
 
 
-
-        }while( escolha == 1);
-
-
+        }while( escolha != '2');
 
 
 
 
 
 
-        System.out.println("=================================================================");
 
 
-    //ACESSAR NINJA
-NINJA NiNJA = NINJADD.get(0);
-NINJA NiNJA1 = NINJADD.get(1);
-NINJA NiNJA2 = NINJADD.get(2);
+        System.out.println("==================================================================================================================================");
 
-        System.out.println("PUXAR O PRIMEIRO" + NiNJA);
-        System.out.println("PUXAR O SEGUNDO " + NiNJA1);
-        System.out.println("PUXAR O TERCEIRO" + NiNJA2 );
-        }
 
+}
 }
