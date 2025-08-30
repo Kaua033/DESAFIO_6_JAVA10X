@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
@@ -17,14 +18,42 @@ public class main {
 
 
 
-
         //REMOVER NINJA
-   NINJA REMOVER = NINJADD.removeFirst();
-        System.out.println("Ninjas Removidos " + REMOVER);
-//MOSTRAR NINJAS
-    for (NINJA NINJAL : NINJADD){
-        System.out.println("Todos os nijas da lista " + NINJAL);
-    }
+char escolha = 0;
+Scanner ini_Scan = new Scanner(System.in);
+        do {
+            System.out.println("------------------NINJAS----------");
+            System.out.println("1.Remover ninjas");
+            System.out.println("2.adicionar ninjas");
+            System.out.println("3.listar");
+            System.out.println("4.Sair");
+char Escolha  = ini_Scan.next().charAt(0);
+            switch (escolha   ) {
+                case 1:   if (!NINJADD.isEmpty()) {
+                    NINJADD.removeFirst();
+              NINJA NINJAL2 = NINJADD.removeFirst();
+
+                    System.out.println("removido = " + NINJAL2);
+
+                } else {
+                    System.out.println("rapaz");
+                }
+break;
+
+            }
+
+
+
+
+
+        }while( escolha == 1);
+
+
+
+
+
+
+
 
         System.out.println("=================================================================");
 
