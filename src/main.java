@@ -13,9 +13,6 @@ public class main {
         NINJADD.add(new NINJA("Kakashi",  30,"Aldeia da Folha"));
         NINJADD.add(new NINJA("Hinata",   16,"Aldeia da Folha"));
         NINJADD.add(new NINJA("Shikamaru",17,"Aldeia da Folha"));
-        NINJADD.add(new NINJA("kaua", 17,"Aldeia da Folha"));
-        NINJADD.add(new NINJA("aa Lee", 17,"Aldeia da Folha"));
-        NINJADD.add(new NINJA("bb Lee", 17,"Aldeia da Folha"));
         NINJADD.add(new NINJA("Gaara",    17,"Aldeia da Areia"));
 
 
