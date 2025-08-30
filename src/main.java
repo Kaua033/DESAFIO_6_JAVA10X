@@ -42,14 +42,14 @@ Scanner ini_Scan = new Scanner(System.in);
                     NINJA NINJA3 = NINJADD.get(2);
                     System.out.println("NINJAS \n" + NINJA + NINJA2 + NINJA3);
                 }else {
-                    System.out.println("embaçado");
+                    System.out.println("NAO MOSTROU");
                 }
                            break;
                 case '3':
                     System.out.println("SAINDOOOO");
             break;
                 default:
-                    System.out.println("mosss");
+                    System.out.println("ESCOLHA  AS OPÇOES");
                 }
 
 
