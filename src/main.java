@@ -24,9 +24,8 @@ Scanner ini_Scan = new Scanner(System.in);
         do {
             System.out.println("------------------NINJAS----------");
             System.out.println("1.Remover ninjas");
-            System.out.println("2.adicionar ninjas");
-            System.out.println("3.listar");
-            System.out.println("4.Sair");
+            System.out.println("2.listar");
+            System.out.println("3.Sair");
 char Escolha  = ini_Scan.next().charAt(0);
             switch (escolha   ) {
                 case 1:   if (!NINJADD.isEmpty()) {
